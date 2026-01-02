@@ -3,3 +3,24 @@ body {
   text-align: right;
 }
 
+/* اجعل الموقع عربيًا بالكامل */
+html, body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* اجعل الحاوية تبدأ من اليمين بدل التوسيط */
+.page__content,
+.initial-content,
+.archive,
+.page,
+main {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+/* (اختياري) تحسين عرض القوائم */
+ul, ol {
+  padding-right: 1.2rem;
+  padding-left: 0;
+}
