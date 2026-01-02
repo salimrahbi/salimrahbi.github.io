@@ -3,27 +3,30 @@ layout: default
 title: "سالم الرحبي"
 ---
 
-<section style="max-width: 900px; margin: 0 auto; padding: 2rem 1rem;">
-  <h1 style="margin: 0 0 0.5rem;">سالم الرحبي</h1>
-  <p style="margin: 0 0 1.5rem; line-height: 1.9;">
-    شاعر وكاتب عماني.
-  </p>
+<div dir="rtl" style="max-width: 900px; margin-right: auto; margin-left: 0; padding: 2rem 1rem; text-align: right;">
 
-  <hr style="margin: 1.5rem 0;" />
+# سالم الرحبي
 
-  <h2 style="margin: 0 0 0.75rem;">روابط سريعة</h2>
-  <ul style="line-height: 2;">
-    <li><a href="/about/">عنّي</a></li>
-    <li><a href="/nathr/">النثر</a></li>
-    <li><a href="/shiir/">الشعر</a></li>
-  </ul>
-</section>
----
-layout: default
-title: "سالم الرحبي"
+شاعر وكاتب عُماني.
+
 ---
 
-<div dir="rtl" style="text-align:right">
+## روابط سريعة
+
+- [عنّي](/about/)
+- [النثر](/prose/)
+- [الشعر](/poetry/)
+
+---
+
+## أحدث ما نُشر
+
+{% for post in site.posts limit:10 %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+</div>
+
 
 # سالم الرحبي
 
