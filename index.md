@@ -1,4 +1,20 @@
 ---
-layout: home
+layout: default
 title: "سالم الرحبي"
 ---
+
+<section style="max-width: 900px; margin: 0 auto; padding: 2rem 1rem;">
+  <h1 style="margin: 0 0 0.5rem;">سالم الرحبي</h1>
+  <p style="margin: 0 0 1.5rem; line-height: 1.9;">
+    شاعر وكاتب عماني.
+  </p>
+
+  <hr style="margin: 1.5rem 0;" />
+
+  <h2 style="margin: 0 0 0.75rem;">روابط سريعة</h2>
+  <ul style="line-height: 2;">
+    <li><a href="/about/">عنّي</a></li>
+    <li><a href="/nathr/">النثر</a></li>
+    <li><a href="/shiir/">الشعر</a></li>
+  </ul>
+</section>
