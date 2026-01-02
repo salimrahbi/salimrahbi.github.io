@@ -18,3 +18,15 @@ title: "سالم الرحبي"
     <li><a href="/shiir/">الشعر</a></li>
   </ul>
 </section>
+---
+layout: default
+title: "سالم الرحبي"
+---
+
+<div dir="rtl" style="text-align:right">
+
+# سالم الرحبي
+
+شاعر وكاتب عُماني.
+
+</div>
